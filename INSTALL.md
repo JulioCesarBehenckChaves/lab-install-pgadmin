@@ -29,10 +29,29 @@ sudo apt install pgadmin4-web -y
 sudo /usr/pgadmin4/bin/setup-web.sh
 ```
 
+Enter an e-mail and password to be used to log-in the pgadmin portal.
+When asked, choose "y" and "y".
+
+Create a new superuser:
+
+```sql
+create user admin with superuser password 'SUA_SENHA';
+```
+
 Open up the URL below in brave-browser:
+
+```
+brave-browser
+```
 
 ```
 http://127.0.0.1/pgadmin4
 ```
+
+Enter with the e-mail and the user you just specified.
+Inside the portal, use a quick link to add a new server.
+Use the connection info from the superuser you just created in you SGBD.
+
+
 
 Ref: https://itslinuxfoss.com/install-pgadmin-ubuntu-22-04/
