@@ -2,6 +2,11 @@
 ### Steps to install the pgAdmin
 
 ```bash
+sudo apt update
+sudo apt upgrade -y
+```
+
+```bash
 sudo apt install curl -y
 ```
 
