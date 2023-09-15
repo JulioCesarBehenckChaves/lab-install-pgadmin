@@ -32,7 +32,8 @@ sudo /usr/pgadmin4/bin/setup-web.sh
 Enter an e-mail and password to be used to log-in the pgadmin portal.
 When asked, choose "y" and "y".
 
-Create a new superuser:
+Create a new superuser in you postgres.
+Enter in your psql line command prompt and type:
 
 ```sql
 create user admin with superuser password 'SUA_SENHA';
