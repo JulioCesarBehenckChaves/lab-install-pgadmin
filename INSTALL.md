@@ -29,7 +29,7 @@ sudo apt install pgadmin4-web -y
 sudo /usr/pgadmin4/bin/setup-web.sh
 ```
 
-Open up the URL bellow in brave-browser:
+Open up the URL below in brave-browser:
 
 ```
 http://127.0.0.1/pgadmin4
